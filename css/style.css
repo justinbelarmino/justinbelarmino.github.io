@@ -211,8 +211,13 @@ section { padding: 6rem 0; border-top: 1px solid var(--border); }
   .hero { padding: 3rem 0; }
   .hero-bg-logo { width: 320px; right: -40px; }
   .hero-stats { flex-wrap: wrap; gap: 1.2rem; }
-  .hero-logo-ring { width: 260px; height: 260px; }
-  .hero-logo-ring-inner { width: 170px; height: 170px; }
+  .hero-logo-ring { width: 220px; height: 220px; }
+  .hero-logo-ring-inner { width: 145px; height: 145px; }
+  .hero-logo-display { width: 100%; justify-content: center; }
+  .hero-logo-ring { margin-bottom: 2rem; }
+  .hero-logo-ring-inner { margin: 0 auto; }
+  .hero h1 { font-size: clamp(2.4rem, 9vw, 4rem); }
+  .hero-desc { max-width: 100%; }
   .project-card { padding: 1.5rem; }
   .project-tech { justify-content: flex-start; }
   .info-box { padding: 1.5rem; }
